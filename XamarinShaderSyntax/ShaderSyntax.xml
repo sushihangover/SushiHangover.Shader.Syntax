@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SyntaxMode name="GraphicShaders" mimeTypes="text/x-customshader" extends="text/x-cgsrc">
+	<EolSpan color="text.preprocessor" rule="text.preprocessor">#</EolSpan>
+	<EolSpan color="comment.line" rule="Comment" tagColor="comment.tag.line">//</EolSpan>
+	<Keywords color="Keyword(Type)">
+		<Word>TextureCube</Word>
+		<Word>TextureCubeArray</Word>
+		<Word>AppendStructuredBuffer</Word>
+		<Word>Buffer</Word>
+		<Word>ByteAddressBuffer</Word>
+		<Word>ConsumeStructuredBuffer</Word>
+		<Word>InputPatch</Word>
+		<Word>OutputPatch</Word>
+		<Word>RWBuffer</Word>
+		<Word>RWByteAddressBuffer</Word>
+		<Word>RWStructuredBuffer</Word>
+		<Word>RWTexture1D</Word>
+		<Word>RWTexture1DArray</Word>
+		<Word>RWTexture2D</Word>
+		<Word>RWTexture2DArray</Word>
+		<Word>RWTexture3D</Word>
+		<Word>StructuredBuffer</Word>
+		<Word>Texture1D</Word>
+		<Word>Texture1DArray</Word>
+		<Word>Texture2D</Word>
+		<Word>Texture2DArray</Word>
+		<Word>Texture2DMS</Word>
+		<Word>Texture2DMSArray</Word>
+		<Word>Texture3D</Word>
+		<Word>uint2</Word>
+		<Word>uint3</Word>
+		<Word>vec2</Word>
+		<Word>vec3</Word>
+		<Word>vec4</Word>
+	</Keywords>
+	<Keywords color="constant.language" ignorecase="true">
+		<Word>vec2</Word>
+		<Word>vec3</Word>
+		<Word>vec4</Word>
+		<Word>FOG</Word>
+		<Word>PSIZE</Word>
+		<Word>VFACE</Word>
+		<Word>SV_Coverage</Word>
+		<Word>SV_Depth</Word>
+		<Word>SV_DomainLocation</Word>
+		<Word>SV_DispatchThreadId</Word>
+		<Word>SV_GroupID</Word>
+		<Word>SV_GroupIndex</Word>
+		<Word>SV_GroupThreadID</Word>
+		<Word>SV_GSInstanceID</Word>
+		<Word>SV_InsideTessFactor</Word>
+		<Word>SV_IsFrontFace</Word>
+		<Word>SV_OutputControlPointID</Word>
+		<Word>SV_Position</Word>
+		<Word>SV_RenderTargetArrayIndex</Word>
+		<Word>SV_SampleIndex</Word>
+		<Word>SV_TessFactor</Word>
+		<Word>SV_ViewportArrayIndex </Word>
+		<Word>SV_InstanceID </Word>
+		<Word>SV_PrimitiveID </Word>
+		<Word>SV_VertexID</Word>
+	</Keywords>
+	<Match color="constant.digit">CSharpNumber</Match>
+	<Span color="comment.block" rule="Documentation" tagColor="comment.tag.block">
+		<Begin>/**</Begin>
+		<End>*/</End>
+	</Span>
+	<Span color="comment.block" rule="Comment" tagColor="comment.tag.block">
+		<Begin>/*</Begin>
+		<End>*/</End>
+	</Span>
+	<Span color="comment.block" rule="Comment" tagColor="comment.tag.block">
+		<Begin>//</Begin>
+	</Span>
+
+</SyntaxMode>

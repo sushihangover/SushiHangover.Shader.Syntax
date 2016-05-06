@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+	<Extension path="/MonoDevelop/SourceEditor2/SyntaxModes">
+		<Templates resource="SushiHangoverShaderSyntax.ShaderSyntax.xml" />
+	</Extension>
+	<Extension path="/MonoDevelop/Core/MimeTypes">
+    <MimeType id="text/x-customshader" _description="Shader Files" isText="trUE"> 
+        <File pattern="*.shader" />
+        <File pattern="*.fs" />  
+        <File pattern="*.vs" />  
+        <File pattern="*.cginc" />  
+        <File pattern="*.vert" />  
+        <File pattern="*.tese" />  
+        <File pattern="*.tesc" />  
+        <File pattern="*.geom" />  
+        <File pattern="*.frag" />  
+        <File pattern="*.comp" /> 				
+      </MimeType>  
+	</Extension>
+</ExtensionModel>
+
+<!--.vert - a vertex shader
+.tesc - a tessellation control shader
+.tese - a tessellation evaluation shader
+.geom - a geometry shader
+.frag - a fragment shader
+.comp - a compute shader
+-->
